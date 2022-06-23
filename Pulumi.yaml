@@ -1,0 +1,6 @@
+name: myPass
+runtime:
+  name: python
+  options:
+    virtualenv: venv
+description: Web PAAS for hosting static webpages and run VM on AWS
