@@ -15,8 +15,8 @@ def create_app():
     load_dotenv()
     app = Flask(__name__, instance_relative_config=True)
     app.config.from_mapping(
-        SECRET_KEY = os.getenv("SECRET_KEY"),
-        PROJECT_NAME = os.getenv("PROJECT_NAME"),
+        SECRET_KEY="secret",
+        PROJECT_NAME="webPass",
         PULUMI_ORG=os.environ.get("PULUMI_ORG"),
     )
 
